@@ -5,7 +5,7 @@ A postgres/postgis script to create centroids for PSMA localities which are base
 
 This process takes ~30-45 mins.
 
-![image1.png](https://github.com/iag-geo/psma-admin-bdys/blob/master/sample-images/aus.png "clean vs original localities")
+![image1.png](https://github.com/iag-geo/psma-locality-centroids/blob/master/image1.png "original vs new centroids")
 
 ### Important
 
