@@ -7,7 +7,7 @@ This process takes ~30-45 mins.
 
 ![image1.png](https://github.com/iag-geo/psma-locality-centroids/blob/master/image1.png "original vs new centroids")
 
-![image1.png](https://github.com/iag-geo/psma-locality-centroids/blob/master/image2.png "original vs new centroids")
+![image2.png](https://github.com/iag-geo/psma-locality-centroids/blob/master/image2.png "original vs new centroids")
 
 ### Important
 
