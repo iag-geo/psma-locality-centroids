@@ -7,11 +7,11 @@ This process takes ~30-45 mins.
 
 ![image1.png](https://github.com/iag-geo/psma-locality-centroids/blob/master/image1.png "original vs new centroids")
 
+![image1.png](https://github.com/iag-geo/psma-locality-centroids/blob/master/image2.png "original vs new centroids")
+
 ### Important
 
-The cleaned localities are not well suited to data processing as they have been deliberately thinned to improve display performance.
-
-A better dataset for processing is the admin_bdys.locality_bdy_analysis table that gets created in the [gnaf-loader](https://github.com/minus34/gnaf-loader) process
+This is never a perfect process! whilst every effort has been made to make a more usable centroid dataset than what currently exists for PSMA locality boundaries, this is but one methodology, it has it's flaws and doesn't work perfectly for all situations. It's up here for any suggestions or improvements. But note, the process needs to be data driven and repeatable 4 times per year!
 
 ### I Just Want the Data!
 
@@ -25,10 +25,9 @@ Incorporates or developed using Administrative Boundaries ©PSMA Australia Limit
 
 ### Script Pre-requisites
 
-- You will need to run the [gnaf-loader](https://github.com/minus34/gnaf-loader) script to load the required Admin Bdy tables into Postgres
+- You will need to run the [gnaf-loader](https://github.com/minus34/gnaf-loader) script to load the required Admin Bdy and GNAF tables into Postgres
 - Postgres 9.x (tested on 9.3, 9.4 & 9.5 on Windows and 9.5 on OSX)
 - PostGIS 2.1+
-- Python 2.7 with Psycopg2 2.6
 
 ### Missing localities
 Trimming the boundaries to the coastline removes a small number of bay or estuary based localities.  These have very few G-NAF addresses.
