@@ -1,7 +1,7 @@
 # psma-locality-centroids
 A postgres/postgis script to create centroids for PSMA localities which are based on actual population concentration, rather than geometric centroids. Uses new open PSMA GNAF and PSMA Administrative Boundaries datasets. Assumes you are using the GNAF Loader and Cleaned Admin Boundaries
 
-## locality-clean
+## creation of centroids
 
 This process takes ~30-45 mins.
 
