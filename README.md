@@ -27,6 +27,7 @@ Incorporates or developed using Administrative Boundaries ©PSMA Australia Limit
 ### Script Pre-requisites
 
 - You will need to run the [gnaf-loader](https://github.com/minus34/gnaf-loader) script to load the required Admin Bdy and GNAF tables into Postgres
+- Will assume you have the gnaf and admin-bdys schemas populated with data as per above. This data will be created as a new table in the admin-bdys schema
 - Postgres 9.x (tested on 9.3, 9.4 & 9.5 on Windows and 9.5 on OSX)
 - PostGIS 2.1+
 
