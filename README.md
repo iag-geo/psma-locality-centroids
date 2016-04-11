@@ -33,3 +33,5 @@ Incorporates or developed using Administrative Boundaries ©PSMA Australia Limit
 
 ### Missing localities
 Trimming the boundaries to the coastline removes a small number of bay or estuary based localities.  These have very few G-NAF addresses.
+
+As an alternative you could perform this operation on the raw PSMA localities file instead.
