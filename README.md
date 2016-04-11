@@ -9,9 +9,13 @@ Uses new open PSMA GNAF and PSMA Administrative Boundaries datasets. Assumes you
 
 The basic principle I have employed here is that of clustering of sets of address points, the assignment of these clusters to their localities and then the identification of the largest cluster's centroid to act as the updated centroid coordinates.
 
-![image1.png](https://github.com/iag-geo/psma-locality-centroids/blob/master/image1.png "visual example of the created clusters")
-
 This process takes ~30-45 mins.
+
+# clusters visualised
+
+![image3.png](https://github.com/iag-geo/psma-locality-centroids/blob/master/image3.png "visual example of the created clusters")
+
+# original vs new centroids
 
 ![image1.png](https://github.com/iag-geo/psma-locality-centroids/blob/master/image1.png "original vs new centroids")
 
