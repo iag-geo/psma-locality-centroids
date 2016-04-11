@@ -11,11 +11,11 @@ The basic principle I have employed here is that of clustering of sets of addres
 
 This process takes ~30-45 mins.
 
-# clusters visualised
+### clusters visualised
 
 ![image3.png](https://github.com/iag-geo/psma-locality-centroids/blob/master/image3.png "visual example of the created clusters")
 
-# original vs new centroids
+### original vs new centroids
 
 ![image1.png](https://github.com/iag-geo/psma-locality-centroids/blob/master/image1.png "original vs new centroids")
 
