@@ -3,7 +3,7 @@ A postgres/postgis script to create centroids for PSMA localities which are base
 
 This process and resulting files are useful for web mapping applications for a quick rapid lookup set of usable starting points to centre your map on, or also as an alternative, updated reference set of coordinates for the locality centroids provided in GNAF
 
-Uses new open PSMA GNAF and PSMA Administrative Boundaries datasets. Assumes you are using the GNAF Loader and Cleaned Admin Boundaries
+Uses new open PSMA GNAF and PSMA Administrative Boundaries datasets. Assumes you are using the GNAF Loader and Cleaned Admin Boundaries (for this version I have used the display boundaries as previoously created)
 
 ## creation of centroids.
 
@@ -23,7 +23,9 @@ This process takes ~30-45 mins.
 
 ### Important
 
-This is never a perfect process! whilst every effort has been made to make a more usable centroid dataset than what currently exists for PSMA locality boundaries, this is but one methodology, it has it's flaws and doesn't work perfectly for all situations. It's up here for any suggestions or improvements. But note, the process needs to be data driven and repeatable 4 times per year!
+This is never a perfect process! whilst every effort has been made to make a more usable centroid dataset than what currently exists for PSMA locality boundaries, this is but one methodology, it has it's flaws and doesn't work perfectly for all situations. It's up here for any suggestions or improvements. 
+
+But note, the process needs to be data driven and repeatable 4 times per year! I can dot push (and have done before) my way to a great dataset, but thats not the aim here!
 
 ### I Just Want the Data!
 
@@ -39,8 +41,8 @@ Incorporates or developed using Administrative Boundaries ©PSMA Australia Limit
 ### Script Pre-requisites
 
 - You will need to run the [gnaf-loader](https://github.com/minus34/gnaf-loader) script to load the required Admin Bdy and GNAF tables into Postgres
-- Will assume you have the gnaf and admin-bdys schemas populated with data as per above. This data will be created as a new table in the admin-bdys schema
-- Postgres 9.x (tested on 9.3, 9.4 & 9.5 on Windows and 9.5 on OSX)
+- Will assume you have the gnaf and admin-bdys schemas populated with data as per above in a psma_YYYYMM Db. This data will be created as new tables in the admin-bdys schema
+- Postgres 9.x
 - PostGIS 2.1+
 
 ### Missing localities
