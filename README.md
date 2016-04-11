@@ -1,7 +1,15 @@
 # psma-locality-centroids
-A postgres/postgis script to create centroids for PSMA localities which are based on actual population concentration, rather than geometric centroids. Uses new open PSMA GNAF and PSMA Administrative Boundaries datasets. Assumes you are using the GNAF Loader and Cleaned Admin Boundaries
+A postgres/postgis script to create centroids for PSMA localities which are based on actual population concentration, rather than geometric centroids. 
 
-## creation of centroids
+This process and resulting files are useful for web mapping applications for a quick rapid lookup set of usable starting points to centre your map on, or also as an alternative, updated reference set of coordinates for the locality centroids provided in GNAF
+
+Uses new open PSMA GNAF and PSMA Administrative Boundaries datasets. Assumes you are using the GNAF Loader and Cleaned Admin Boundaries
+
+## creation of centroids.
+
+The basic principle I have employed here is that of clustering of sets of address points, the assignment of these clusters to their localities and then the identification of the largest cluster's centroid to act as the updated centroid coordinates.
+
+![image1.png](https://github.com/iag-geo/psma-locality-centroids/blob/master/image1.png "visual example of the created clusters")
 
 This process takes ~30-45 mins.
 
