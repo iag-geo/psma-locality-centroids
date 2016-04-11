@@ -28,8 +28,8 @@ This is never a perfect process! whilst every effort has been made to make a mor
 ### I Just Want the Data!
 
 You can run the script to get the result or just download the data from here:
-- [Shapefile](https://github.com/iag-geo/psma-admin-bdys/releases/download/v1.0/locality_bdys_display_shapefile.zip) (~40Mb) 
-- [GeoJSON](https://github.com/iag-geo/psma-admin-bdys/releases/download/v1.0/locality_bdys_display_geojson.zip) (~25Mb) 
+- [Shapefile](https://github.com/iag-geo/psma-locality-centroids/releases/download/v1.0/psma_locality_centroids_shapefile.zip) (~40Mb) 
+- [GeoJSON](https://github.com/iag-geo/psma-locality-centroids/releases/download/v1.0/psma_locality_centroids_geojson.zip) (~25Mb) 
 
 #### Data License
 Incorporates or developed using G-NAF ©PSMA Australia Limited licensed by the Commonwealth of Australia under the [Open Geo-coded National Address File (G-NAF) End User Licence Agreement](http://data.gov.au/dataset/19432f89-dc3a-4ef3-b943-5326ef1dbecc/resource/09f74802-08b1-4214-a6ea-3591b2753d30/download/20160226---EULA---Open-G-NAF.pdf).
